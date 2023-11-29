@@ -1,0 +1,32 @@
+Criando seu ambiente virtual no projeto
+
+Acesse a pasta server onde será instalada o nosso ambiente virtual
+
+Agra crie seu ambiente virtual:
+
+    py -m venv <nome_da_sua_venv>
+
+Agra acesse-o:
+
+    Windows:
+        <nome_da_sua_venv>\Scripts\activate
+    Linux:
+        source  <nome_da_sua_venv>/bin/activate
+
+Para fechá-lo:
+
+    deactivate
+
+Caso não tenha a Lib do ambiente virtual abra o seu terminal, digite:
+
+    pip install virtualenv
+
+
+Caso instale novas bibliotecas e quer setar no nosso arquivo requirements.txt:
+        
+    pip freeze > requirements.txt 
+
+
+Caso queira instalar os frameworks dentro de requirements.txt faça:
+        
+    pip install -r requirements.txt
